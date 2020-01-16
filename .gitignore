@@ -1,0 +1,8 @@
+node_modules
+package-lock.json
+yarn.lock
+.env
+src/resolvers/db/*.js
+src/graphql/*.graphql
+!src/graphql
+!src/resolvers/db

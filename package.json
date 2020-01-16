@@ -1,0 +1,24 @@
+{
+  "scripts": {
+    "start": "node src/index.js",
+    "debug": "cross-env NODE_PATH=src NODE_ENV=debug nodemon --exec babel-node src/index.js --watch src/ -e js,graphql,env"
+  },
+  "dependencies": {
+    "axios": "^0.19.1",
+    "dotenv": "^8.2.0",
+    "graphql-yoga": "1.18.3",
+    "mssql": "^6.0.1"
+  },
+  "name": "graphqlserver",
+  "version": "1.0.0",
+  "description": "minimal GraphQL Server with mssql",
+  "main": "src/index.js",
+  "author": "Seo JaeMin reaqermin@gmail.com",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-node": "^0.0.1-security",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-3": "^6.24.1"
+  }
+}
