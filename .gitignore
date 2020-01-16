@@ -4,5 +4,5 @@ yarn.lock
 .env
 src/resolvers/db/*.js
 src/graphql/*.graphql
-!src/graphql/
-!src/resolvers/db/
+!src/graphql/.gitkeep
+!src/resolvers/db/.gitkeep
